@@ -1,0 +1,101 @@
+html, body {
+	width: 90%;
+	height: 90%;
+	margin: 10px;
+}
+
+html {
+	font-family: "copperplate", fantasy;
+	background: url(https://i.imgur.com/lVfoQ3g.jpg) cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.nav {
+	float: right;
+}
+
+span {
+	color: black;
+}
+
+label {
+	margin: 0 40px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	display: none;
+	width: 26px;
+	float: right;
+
+}
+
+
+div{
+	margin: auto;
+}
+
+
+
+.box1 {
+	margin-top: 10px;
+}
+
+.flexbox-container {
+	flex-direction: column;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+}
+
+.flexbox1 {
+	width: 500px;
+	margin: 10px;
+	border: 3px solid #333;
+	background-color: #fff;
+}
+
+.flexbox-item-1 {
+	min-height: 100px;
+
+}
+
+.flexbox-item-2 {
+	min-height: 100px;
+
+}
+
+.flexbox-item-3 {
+	min-height: 100px;
+
+}
+
+/* background image */
+
+p {
+	background-color: springgreen;
+}
+
+body{
+	background-image: url(https://i.imgur.com/lVfoQ3g.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family: 'staatliches', cursive;
+
+}
+
+/* background image */
+
+img{
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+
+}
+
+
+
